@@ -1,0 +1,71 @@
+/* Style for the table container */
+div {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Style for the table header row */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  /* Style for table header cells */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for table data rows */
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Style for alternate table rows */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect for table rows */
+  tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style for the table title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Center the table title */
+  h1 {
+    text-align: center;
+  }
+
+  /* Add these styles to your table.css file */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue color, you can change it */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Disabled state color */
+    cursor: not-allowed;
+  }
+  
+  
